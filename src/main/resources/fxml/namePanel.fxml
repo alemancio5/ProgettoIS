@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GUI.Scene.NameController">
+   <children>
+      <ImageView fitHeight="609.0" fitWidth="806.0" layoutX="-3.0" layoutY="-4.0" pickOnBounds="true">
+         <image>
+            <Image url="@/Graphics/name_sfondo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernameField" layoutX="202.0" layoutY="322.0" prefHeight="35.0" prefWidth="396.0">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="continueButton" fitHeight="38.0" fitWidth="187.0" layoutX="326.0" layoutY="427.0" onMouseClicked="#continueButtonPressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/continueButton.png" />
+         </image></ImageView>
+      <ImageView fitHeight="62.0" fitWidth="266.0" layoutX="267.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/insert_username.png" />
+         </image></ImageView>
+   </children>
+</Pane>

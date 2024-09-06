@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GUI.Scene.ConnectionController">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="800.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@/Graphics/connection_image.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="serverPortField" layoutX="72.0" layoutY="417.0" prefHeight="22.0" prefWidth="206.0" promptText="Default">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="addressField" layoutX="525.0" layoutY="417.0" prefHeight="22.0" prefWidth="206.0" promptText="Default">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></TextField>
+      <ImageView fitHeight="97.0" fitWidth="338.0" layoutX="231.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/connectionText.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="177.0" layoutX="340.0" layoutY="523.0" onMouseClicked="#continue_pressed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/continueButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/Server type.png" />
+         </image></ImageView>
+      <ImageView fitHeight="40.0" fitWidth="139.0" layoutX="106.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/Server Port.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="139.0" layoutX="558.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/IP address.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="serverType" layoutX="300.0" layoutY="274.0" prefHeight="22.0" prefWidth="200.0" style="-fx-font-family: 'Times New Roman'; -fx-background-color: white;" />
+   </children>
+</Pane>

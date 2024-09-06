@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GUI.Scene.MenuController">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="800.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@/Graphics/menu_image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="190.0" fitWidth="574.0" layoutX="113.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Publisher Material/Title 2000x618px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="165.0" layoutX="320.0" layoutY="465.0" onMouseClicked="#playButton_click" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/playButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="159.0" layoutX="687.0" layoutY="551.0" onMouseClicked="#goCredits" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/creditsButton.png" />
+         </image></ImageView>
+   </children>
+</Pane>

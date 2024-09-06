@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GUI.Scene.ChatController">
+   <children>
+      <ImageView fitHeight="428.0" fitWidth="608.0" layoutX="-4.0" layoutY="-22.0" pickOnBounds="true">
+         <image>
+            <Image url="@/Graphics/cartoonBackground.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="text_field" layoutX="36.0" layoutY="326.0" prefHeight="26.0" prefWidth="534.0">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></TextField>
+      <ComboBox fx:id="choiceBox" layoutX="225.0" layoutY="11.0" prefWidth="150.0" promptText="all" style="-fx-font-family: 'Times New Roman'; -fx-background-color: white;" />
+      <ImageView fitHeight="265.0" fitWidth="556.0" layoutX="25.0" layoutY="45.0" pickOnBounds="true">
+         <image>
+            <Image url="@/Graphics/cornice_chat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="103.0" layoutX="262.0" layoutY="359.0" onMouseClicked="#send" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/Graphics/sendButton.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="text_area" layoutX="41.0" layoutY="61.0" prefHeight="233.0" prefWidth="522.0" text="">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>
